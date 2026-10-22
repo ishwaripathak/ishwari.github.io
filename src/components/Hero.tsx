@@ -24,7 +24,7 @@ export default function Hero() {
     </motion.div>
     <motion.div className="temple-scene" style={{scale: reduced ? 1 : scale, opacity: reduced ? 1 : opacity}}>
       <motion.div className="portal-glow" style={{opacity: reduced ? 0 : glow}} />
-      <motion.img src={artwork} alt="An intricately illustrated Indian wedding mandap in warm sandstone and gold" className="temple temple-left" style={{x: reduced ? 0 : left}}/>
+      <motion.img src={artwork} alt="An ornate ivory and gold wedding mandap with three domes, marigold garlands, and hanging bells" className="temple temple-left" style={{x: reduced ? 0 : left}}/>
       <motion.img src={artwork} alt="" aria-hidden="true" className="temple temple-right" style={{x: reduced ? 0 : right}}/>
     </motion.div>
     <a className="scroll-cue" href="#invitation"><span>SCROLL TO EXPLORE</span><ArrowDown size={15}/></a>

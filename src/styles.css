@@ -27,3 +27,5 @@
 /* Keep small editorial copy readable while retaining muted gold for ornament. */
 .gold{color:#856736}.functions .gold,.rsvp-section .gold{color:#c7a875}.invitation-copy,.story-copy>p:not(.eyebrow):not(.story-signature),.rsvp-intro>p:not(.eyebrow){font-size:13px}.event-description,.know-card p,.instagram p:not(.eyebrow){font-size:12px}.hero-rsvp svg{flex-shrink:0}
 @media(max-width:600px){.invitation-copy{font-size:12px}.event-description{font-size:11px}.instagram p:not(.eyebrow){font-size:12px}.story-copy>p:not(.eyebrow):not(.story-signature){font-size:13px}}
+/* Match the supplied transparent mandap's native proportions. */
+.temple-scene{aspect-ratio:1715/917}.temple{object-position:center bottom}

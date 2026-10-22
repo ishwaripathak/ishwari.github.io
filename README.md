@@ -23,7 +23,7 @@ Deploy the contents of `dist/` to a static host. Relative Vite asset paths suppo
 
 All wedding information and asset references live in `src/data/weddingData.ts`. The supplied schedule is January 15–16, 2027, with Hast Melap at 12:30 PM India time. Ganesh Sthapan, Haldi, engagement, Sangeet, wedding, and an unscheduled Mehndi are represented. Unspecified logistics remain visibly pending rather than invented.
 
-- Set `templeArtwork` to a transparent image URL or a file in `public/`. The original local SVG mandap is the fallback. Both image halves use the same source, clipped at the exact center; their scroll transforms open a glowing portal with no scroll locking or artificial runway. Reduced-motion preferences keep the artwork static.
+- Set `templeArtwork` to a transparent image URL or a file in `public/`. The hero uses `public/temple.png`, a transparent temple asset prepared from the supplied screenshot. The original local SVG remains available as a fallback. Both image halves use the same source, clipped at the exact center; their scroll transforms open a glowing portal with no scroll locking or artificial runway. Reduced-motion preferences keep the artwork static.
 - Replace `photos` with personal image paths and meaningful alternative text. Without photos, the carousel displays clearly labeled illustrated placeholders.
 - Set `youtubeId` to the YouTube video ID (not the full URL); the embed loads only after play is selected.
 - Set `musicUrl` to a licensed audio file. The music control appears only when configured, and playback requires user interaction.
